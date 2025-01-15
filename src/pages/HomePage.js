@@ -7,7 +7,7 @@ import HomeSection3 from '../components/home/HomeSection3';
 import HomeSection4 from '../components/home/HomeSection4';
 import HomeSection5 from '../components/home/HomeSection5';
 import HomeSection6 from '../components/home/HomeSection6';
-
+import TalkToUs from '../components/common/TalkToUs';
 
 const HomePage = () => {
   return (
@@ -19,7 +19,7 @@ const HomePage = () => {
       <HomeSection4 />
       <HomeSection5 />
       <HomeSection6 />
-     
+      <TalkToUs />
       <Footer />
     </div>
   );
