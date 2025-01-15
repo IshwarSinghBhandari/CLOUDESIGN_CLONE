@@ -1,0 +1,136 @@
+.contact-form {
+    display: flex;
+    justify-content: center;
+}
+
+.form-container {
+    padding: 3rem 5rem;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    background-image: url('https://www.cloudesign.com/images/contact-form-bg.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    gap: 60px;
+}
+
+.form-header {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 17px;
+}
+
+.header-left {
+    display: flex;
+    flex-direction: column;
+}
+
+.header-text h3 {
+    color: white;
+}
+
+.header-description p {
+    font-weight: 500;
+    font-size: 24px;
+    color: white;
+}
+
+.header-description p span {
+    color: rgb(218 54 67);
+}
+
+.form-image {
+    max-width: 100%;
+    height: auto;
+}
+
+.form-content {
+    padding: 32px 38px;
+    background-color: white;
+ 
+    gap: 1.5rem;
+}
+.consultation-header{
+    font-weight: 500;
+    font-size: 24px;
+}
+.consultation-header h3 span{
+  color: rgb(218 54 67);
+}
+.flex-col{
+    display: flex;
+    flex-direction: column;
+}
+.contact-form{
+    gap: 1rem;
+}
+.form-field {
+    gap:.5rem;
+}
+.form-field label{
+    line-height: 24px;
+    font-weight: 600;
+    font-size: 14px;
+}
+.form-field input{
+    border: 1px solid rgb(217 217 217);
+    border-radius: 4px;
+    padding: 1rem;
+    width: 100%;
+}
+.form-flex{
+    display: flex;
+    justify-content: space-between;
+}
+.form-field{
+    flex: 0 0 47.5%;
+}
+.form-field textarea{
+    border: 1px solid rgb(217 217 217);
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    width: 100%;
+    height: 100px;
+}
+.contactBtn{
+    color: rgb(255 255 255);
+    text-align: center;
+    padding: 8px 16px;
+    background-color: rgb(211 211 211);
+    border-radius: 4px;
+    border: none;
+}
+.divider-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:17px
+}
+
+.divider1{
+    border-top: 1px solid rgb(217 217 217);
+    width: 236px;
+}
+.contact-info{
+    padding: 32px 38px;
+    background-color: rgb(46 46 70);
+    display: flex;
+    align-items: center;
+    gap:26px;
+}
+.contact-details p{
+    color: white;
+    font-size: 24px;
+    font-weight: 300;
+}
+.email-link{
+    color: rgb(218 54 67);
+    font-weight: 500;
+    font-size: 28px;
+}
+@media(max-width:768px){
+    .form-container{
+        padding: 3rem 1rem;
+        grid-template-columns: repeat(1, minmax(0, 1fr));
+      }
+    }

@@ -1,0 +1,288 @@
+.service-section {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin: auto;
+}
+
+.service-heading-section {
+  padding-left: 105px;
+  padding-right: 105px;
+
+}
+
+.service-heading-section h3 {
+  font-weight: 700;
+  font-size: 32px;
+  text-align: center;
+  color: black;
+}
+
+.service-hb-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.service-hb-section div {
+  border: 2px solid rgb(218 54 67);
+  width: 3.5rem;
+}
+
+.service-sections-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.service-card {
+  position: relative;
+}
+
+.service-image {
+  width: 401px;
+  height: 280px;
+}
+
+.service-details {
+  color: rgb(255 255 255);
+  background-color: #5858589e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 280px;
+  width: 401px;
+  position: absolute;
+  top: 0;
+}
+
+.service-header {
+  transform: translateY(0);
+  transition: transform 0.7s ease;
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .service-header {
+    padding: 1.25rem;
+  }
+
+  .service-heading-section{
+    padding-left: .5rem;
+    padding-right: .5rem;
+  }
+  .service-heading-section h3{
+   font-size: 1.5rem;
+   margin-bottom: .5rem;
+   line-height: 2.2rem;
+  }
+  .service-image,.service-details{
+    width: 480px;
+    max-width: 100%;
+  }
+}
+@media (max-width: 478px) {
+  .service-image,.service-details{
+    width: 401px;
+  }
+}
+
+.service-header:hover {
+  transform: translateY(-0.5rem);
+
+}
+
+.service-details:hover .service-links {
+  display: block;
+}
+
+.service-details:hover {
+  background-color: #c265659e;
+}
+
+.service-details:hover .service-header h2 {
+  text-align: left;
+}
+
+.service-header h2 {
+  text-align: center;
+  margin-left: 1.25rem;
+  margin-right: 1.25rem;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  font-weight: 700;
+}
+
+.service-links {
+  display: none;
+  margin-top: .5rem;
+}
+
+.service-links a {
+  color: white;
+  text-decoration: none;
+}
+
+.service-links div:hover {
+  background-color: rgb(218 54 67);
+}
+
+.service-links div {
+  font-size: 15px;
+  text-align: left;
+  margin-left: 1.25rem;
+  margin-right: 1.25rem;
+  margin-bottom: .25rem;
+}
+
+/* partner css-- */
+
+.partner-section {
+  padding: 3rem 5rem;
+}
+
+.partner-header {
+  margin-bottom: 2rem;
+}
+
+.partner-header h3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 32px;
+  text-align: center;
+}
+
+.partner-line {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.partner-line div {
+  border: 2px solid rgb(218 54 67);
+  width: 3.5rem;
+}
+
+.partner-logos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+
+.partner-logo {
+  width: 218px;
+  height: 110px;
+  border: 1px solid #e5e7eb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.partner-logo img{
+  width: 80%;
+}
+
+@media (max-width: 768px) {
+  .partner-section{
+    padding: 3rem 1rem;
+  }
+  .partner-header h3{
+    font-size: 1.5rem;
+  }
+  .partner-logos{
+    flex-wrap: wrap;
+  }
+  .partner-logo {
+    width: 160px;
+    height: 90px;
+  }
+  .partner-logo img{
+    width: 70%;
+  }
+}
+
+/* tech-stack-section section------- */
+.tech-stack-section {
+  padding: 3rem 3rem;
+}
+
+.tech-stack-main {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 34px;
+}
+
+.tech-stack-heading {
+  font-weight: 700;
+  font-size: 32px;
+  text-align: center;
+  margin-bottom: .5rem;
+}
+
+.tech-stack-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+
+.tech-link {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
+
+.tech-item {
+  padding: auto .25rem;
+  border: 1px solid rgb(217 217 217);
+  border-radius: .5rem;
+  display: flex;
+  align-items: center;
+  width: 183px;
+  height: 56px;
+}
+
+.tech-logo {
+  width: 26%;
+  height: auto;
+}
+
+.tech-label {
+  vertical-align: middle;
+}
+
+@media (max-width: 768px) {
+  .tech-label {
+    font-size: 0.75rem;
+  }
+  .tech-stack-section {
+    padding: 3rem 1rem;
+}
+.tech-stack-heading{
+  font-size: 1.5rem;
+}
+.tech-item{
+  width: 135px;
+}
+.tech-logo{
+  width: 35%;
+}
+}
+
+.tech-label:hover {
+  color: #da3643;
+}
+
+.explore-link {
+  color: rgb(53 52 53);
+  font-size: 18px;
+  padding: 12px 16px;
+  border: 1px solid rgb(53 52 53);
+  border-radius: 8px;
+  text-decoration: none;
+}

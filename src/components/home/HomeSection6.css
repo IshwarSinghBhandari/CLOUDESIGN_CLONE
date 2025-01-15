@@ -1,0 +1,126 @@
+.blog-section{
+
+}
+.blog-section-main{
+    padding-top: 51px;
+    padding-bottom: 51px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.blog-title{
+    font-weight: 700;
+    font-size: 32px;
+    text-align: center  ;
+}
+.blog-divider{
+   
+    width: 56px;
+    border: 2px solid #DA3643;
+    margin-bottom: 44px;
+}
+.blog-list{
+    padding: 3rem 5rem;
+    display: flex;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    row-gap: 40px;
+    column-gap: 25px;
+}
+.blog-item{
+
+}
+.blog-link{
+    text-decoration: none;
+    color: black;
+}
+.blog-image-container{
+    height: 212px;
+}
+.blog-image{
+    width: 100%;
+    height: 100%;
+    border-radius: 12px;
+    object-fit: cover;
+}
+.blog-category{
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.blog-category-label{
+    font-size: .75rem;
+    line-height: 1rem;
+    padding: .25rem .5rem;
+    background-color: rgb(243 244 246);
+    display:flex;
+    align-items: center;
+}
+.blog-title-container{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.blog-title-text{
+    font-size: 24px;
+    font-weight: 600;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+}
+.blog-description{
+    font-weight: 400;
+    font-size: 16px;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+}
+.blog-description-text{
+   
+}
+.author-link{
+    text-decoration: none;
+    color:black;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+.author-image-container{
+    height: 53px;
+}
+.author-image{
+    border-radius: 50%;
+    height: 100%;
+    width: 100%;
+}
+.author-name-text{
+    font-size: 14px;
+    font-weight: 400;
+}
+.explorebtn{
+    color: rgb(55 65 81);
+    padding: .5rem 1rem;
+    border: 1px solid rgb(156 163 175);
+    border-radius: 8px;
+    text-decoration: none;
+}
+.explorebtn:hover{
+    color: #DA3643;
+}
+@media (max-width: 768px) {
+    .blog-title{
+        font-size: 1.5rem;
+    }
+.blog-list{
+    padding: 3rem 1rem;
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+}
+
+}

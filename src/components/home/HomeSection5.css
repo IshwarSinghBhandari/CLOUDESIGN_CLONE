@@ -1,0 +1,150 @@
+.customer-section {
+    
+    padding: 3rem 0 3rem 5rem;
+}
+
+.customer-container {
+    background-image: url(https://www.cloudesign.com/images/Customerbg.webp);
+    /* background-size: cover; */
+    padding: 3rem 6rem;
+    background-repeat: no-repeat;
+    background-position: 100%;
+    height: 100%;
+    opacity: 1;
+    transition: opacity 0.8s ease-in-out;
+}
+.customer-content.fade-out {
+    opacity: 0;
+}
+.customer-heading {
+    font-size: 32px;
+    color: rgb(53 52 53);
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.customer-divider {
+    width: 56px;
+    border: 2px solid #DA3643;
+    margin-bottom: 44px;
+}
+
+.customer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.customer-info {
+    display: flex;
+    gap: 32px;
+    /* flex-wrap: wrap; */
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.customer-image {
+    width: 392px;
+    height: auto;
+    object-fit: cover;
+    box-shadow: 0 4px 12px 0 #808285;
+    transition-duration: .5s;
+    
+}
+
+.customer-feedback {
+    position: relative;
+    height: 380px;
+}
+
+.customer-feedback-text {
+    margin-bottom: 36px;
+    font-size: 16px;
+    color: #333;
+    line-height: 1.6;
+}
+
+.customer-footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.customer-details {
+    display: flex;
+    flex-direction: column;
+}
+
+.customer-name {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.customer-title {
+    font-size: 14px;
+    color: #666;
+}
+
+.customer-navigation {
+    display: flex;
+    gap: 12px;
+    justify-content: flex-end;
+}
+
+.customer-prev,
+.customer-next {
+    cursor: pointer;
+}
+@media (max-width: 1200px) {
+    .customer-feedback{
+        height: 472px;
+    }
+}
+@media (max-width: 1000px) {
+    .customer-container{
+        padding: 0;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .customer-section{
+        padding: 3rem 1rem;
+    }
+    .customer-heading{
+        font-size: 1.5rem;
+    }
+    .customer-container{
+        padding: 0;
+    }
+    .customer-info {
+        flex-wrap: wrap;
+    }
+    .customer-feedback-text{
+        font-size: 14px;
+    }
+    .customer-feedback{
+        height: 312px;
+    }
+}
+
+@media (max-width: 448px) {
+    .customer-image{
+        width:300px ;
+    }
+    .customer-feedback{
+        height: 422px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+

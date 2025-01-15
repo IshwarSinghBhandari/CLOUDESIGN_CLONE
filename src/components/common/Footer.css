@@ -1,0 +1,203 @@
+/* Footer Base Styles */
+
+.footer {   
+    /* border: 2px solid black; */
+    padding: 40px 20px 0px 20px;
+    font-family: "Poppins", serif;
+    color: #333;
+    margin: 1% 5.7% 0 5.7%;
+  }
+  
+  /* Top Section Styles */
+  .footer-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #c9c9c9;
+    padding-bottom: 12px;
+    margin-bottom: 1.8rem;
+    
+  }
+ 
+  .footer-social-section {
+    /* border: 2px solid black; */
+    display: flex;
+    align-items: center;
+  }
+  
+  .social-title {
+    font-size: 14px;
+    margin-right: 1.5rem;
+  }
+  
+  .social-links {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .social-item {
+    margin-right: 10px;
+  }
+  
+  .social-link img {
+    width: 40px;
+    height: 40px;
+    transition: transform 0.3s ease;
+  }
+  
+  .social-link:hover img {
+    transform: scale(1.1);
+  }
+  
+  /* Bottom Section Styles */
+  .footer-bottom {
+    /* border: 2px solid black; */
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 99px;
+  }
+  
+  .footer-contact-details,
+  .footer-about,
+  .footer-technologies,
+  .footer-careers-affiliates {
+    display: flex;
+    flex-direction: column;
+  }
+  .footer-location,.about-section,.service-section,.technologies-primary,.technologies-secondary,.footer-careers,.footer-affiliates{
+    margin-bottom:3rem;
+    width: 95%;
+  }
+  .footer-phone{
+    margin-top: -1rem;
+    margin-bottom: 1.5rem;
+    width: 80%;
+  }
+ 
+
+  .footer-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .title-desc {
+    font-size: 14px;
+    margin-bottom: 8px;
+    color: #666;
+    text-decoration: none;
+  }
+  
+  .title-desc:hover {
+    color: #000;
+  }
+  
+  /* About and Services Links */
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  li a:hover {
+    color: #000;
+  }
+  
+  /* Affiliate Brands */
+  .footer-affiliates{
+    margin-top: 5rem;
+    margin-bottom: 0;
+  }
+  .affiliates-links {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .affiliates-links li {
+    margin-bottom: 10px;
+  }
+  
+  /* footer-copyright */
+  .footer-copyright{
+    
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #d9d9d9;
+    padding:1rem 5rem;
+    font-size: 14px;
+    color: #585858;
+  }
+  .copyright{
+    width: 100%;
+  }
+  .copyright-desc{
+    background-color:#d9d9d9;
+    margin: 0;
+    font-size: .75rem;
+  }
+  .terms-policy {
+    width: 100%;
+    display: flex;
+    background-color: #d9d9d9;
+    align-items: center;
+    justify-content: flex-end;
+   
+  }
+  .tech-links,.about-links,.services-links,.footer-careers ul{
+    padding: 0;
+  }
+  .tech-links li a:hover,.about-links li a:hover,.services-links li a:hover,.footer-careers ul li a:hover{
+    color: rgb(218 54 67);
+  }
+
+  .dot{
+    margin: 0 .5rem;
+    background-color: red;
+    border: 2px solid red;
+    width: 4px;
+    height: 4px
+  }
+  .terms,.policy{
+    background-color: #d9d9d9;
+    margin: 0;
+    font-size: .75rem;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .footer-top {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .footer-bottom {
+      grid-template-columns: 1fr 1fr;
+      gap: 15px;
+    }
+    .footer-copyright{
+        flex-direction: column;
+
+    }
+
+  }
+  
+  @media (max-width: 480px) {
+    .footer-bottom {
+      grid-template-columns: 1fr;
+    }
+    .footer-copyright{
+        flex-direction: column;
+    }
+  }
+  
