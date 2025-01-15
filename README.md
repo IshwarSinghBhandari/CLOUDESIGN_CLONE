@@ -62,5 +62,15 @@ src/
 ├── App.js
 └── index.css
 
-
+## Folder Descriptions
+assets/: Contains static images used in the project.
+components/: Includes reusable UI components categorized by pages.
+common/: Shared components like Header and Footer.
+home/: Components for different sections on the homepage.
+about/: Components related to the About page.
+services/: Components related to the Services page.
+pages/: Contains main page components that structure each route.
+routes/: Manages application routing with Router.js.
+App.js: Root component of the application.
+index.css: Global styles for the project.
 .
