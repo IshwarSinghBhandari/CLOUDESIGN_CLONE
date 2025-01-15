@@ -28,9 +28,6 @@ src/
 │   │   ├── logo.png
 │   │   ├── img1.jpg
 │   │   ├── img2.jpg
-│   ├── videos/          
-│   │   ├── intro.mp4
-│   │   └── demo.mp4
 ├── components/
 │   ├── common/
 │   │   ├── Header.js
@@ -42,6 +39,14 @@ src/
 │   │   ├── HomeSection1.css
 │   │   ├── HomeSection2.js
 │   │   └── HomeSection2.css
+│   │   ├── HomeSection3.js
+│   │   └── HomeSection3.css
+│   │   ├── HomeSection4.js
+│   │   └── HomeSection4.css
+│   │   ├── HomeSection5.js
+│   │   └── HomeSection5.css
+│   │   └── HomeSection6.js
+│   │   └── HomeSection6.css
 │   ├── about/
 │   │   ├── About.js
 │   │   └── About.css
@@ -56,3 +61,6 @@ src/
 │   └── Router.js
 ├── App.js
 └── index.css
+
+
+.
